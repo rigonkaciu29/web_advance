@@ -53,5 +53,5 @@ box-sizing: border-box;
 body{
     background-image: url(download.png);
     background-size: cover;
-    background-position: cover;
+    background-position: center;
 }
