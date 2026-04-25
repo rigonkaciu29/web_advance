@@ -40,13 +40,20 @@ p{
 
 #normalTEXT{
     font-style: normal;
-
+    font-weight: normal;
 }
 
 #italicTEXT{
     font-style: italic;
+    font-weight: bold;
 }
 
-#oblique{
+#obliqueTEXT{
     font-style: oblique;
+    font-weight: 600;
+}
+
+
+.a{
+    color: blue;
 }
