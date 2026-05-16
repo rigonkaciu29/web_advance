@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20 px
+}
+
+
+.text::first-line{
+    color: blue ;
+    font-weight:bold ;
+}
+
+
+.text::first-letter{
+    font-size: 40px;
+    color: red;
+}
+
+.text::before{
+ content: "NOTE: " ;
+ color: green;
+ font-weight: bold;
+}
+
+.text::before{
+ content: " # " ;
+ color: purple;
+ font-weight: bold;
+}
+
+.text::selection{
+    background-color: yellow;
+    color: black;
+}

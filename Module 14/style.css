@@ -1,0 +1,75 @@
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+
+} 
+
+
+ article > p{
+    background-color: red;
+ }
+
+ article ~ p{
+    background-color:  purple;
+    color: white;
+    padding: 20px;
+ }
+
+  article + p{
+    background-color:  orange
+
+  }
+
+ /*hover*/
+ a:hover{
+    color: red;
+    font-size: 22px;
+
+ }
+
+input:focus{
+    background-color: lightyellow;
+    border: 2px solid blue;
+    outline: none;
+}
+
+/*first child*/
+
+p:first-child{
+    color: green;
+    font-weight: bold;
+}
+
+/*required*/
+
+input:required{
+    border: 2px solid orange;
+}
+
+
+/*valid*/
+
+input:valid{
+    border-color: green;
+
+}
+
+
+/*invalid*/
+
+input:invalid{
+    border-color: red;
+}
+
+
+/*inrange*/
+input:in-range{
+     background-color: aquamarine;
+}
+
+/*out of-range*/
+
+input:out-of-range{
+    background-color: pink;
+}
