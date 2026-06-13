@@ -1,0 +1,55 @@
+:root{
+    --primary-color:blue;
+    --secendary-color:red;
+    --pading: padding: 20px;
+    --ajnicolor:green;
+    --darisicolor:pink;
+    --paddingiRigonit:14;
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--secendary-color);
+    padding: var(--pading);
+
+}
+
+p{
+    background-color: var(--ajnicolor);
+    color: var(--darisicolor);
+    padding: var(--paddingiRigonit);
+}
+
+#example-one{
+    margin: 30px;
+    width:150px;
+    height: 150px;
+    border-radius: 10px;
+    color: var(--darisicolor);
+}
+
+
+#example-two{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+
+#example-three{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 3px solid orange;
+    background:url(cat.jpg) ;
+}
+
+#example-four{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px 60px;
+    background: red;
+}

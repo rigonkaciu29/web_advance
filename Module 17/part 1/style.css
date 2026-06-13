@@ -1,0 +1,60 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover  .dropdown-content{
+    display: block;
+}
+
+
+.dropdown-content p:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    font-size:large;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptex{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 6px ;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: 60px;
+}
+
+.tooltip .tooltiptex::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left:50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.tooltip:hover  .tooltiptext{
+    visibility: visible;
+}
