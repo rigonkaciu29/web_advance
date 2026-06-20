@@ -53,3 +53,19 @@ p{
     border-radius: 5px 60px;
     background: red;
 }
+
+#example-five{
+     margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px/50px;
+    background-color: brown;
+}
+
+#example-six{
+     margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px/10px;
+    background-color: brown;
+}
