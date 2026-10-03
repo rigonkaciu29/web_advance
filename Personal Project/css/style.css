@@ -199,7 +199,7 @@ td small {
   color: var(--text-muted);
 }
 
-/* Forms & Buttons */
+/* Forms Buttons */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -234,7 +234,7 @@ button:hover {
   opacity: 0.9;
 }
 
-/* Newsletter & Contact Sections */
+/* Contact */
 section:has(form) {
   max-width: 600px;
   margin: 40px auto;
