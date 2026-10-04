@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+/* --- Navigation Bar --- */
+header {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b00;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b0b0b0;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6b00;
+}
+
+/* --- Hero Section --- */
+.about-hero {
+    background-color: #ff6b00;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about-hero h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* --- Main Content Section --- */
+.about-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    color: #b0b0b0;
+    font-size: 1.05rem;
+}
+
+/* --- Features / Values Grid --- */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.value-card {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #2d2d2d;
+    text-align: center;
+}
+
+.value-card h3 {
+    color: #ff6b00;
+    margin-bottom: 15px;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 1px solid #2d2d2d;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #888888;
+}
+    

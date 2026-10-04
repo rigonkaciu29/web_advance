@@ -7,27 +7,85 @@
     <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
-      <section id="contact">
-    <h3>CONTACT US</h3>
-    <form>
-      <p>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Your name">
-      </p>
-      <p>
-        <label for="msg">Message:</label><br>
-        <textarea id="msg" name="message" rows="4" cols="40" placeholder="Ask about shipping, stock, or test rides..."></textarea>
-      </p>
-      <p>
-        <button type="submit">Send Message</button>
-      </p>
-    </form>
-  </section>
+
+    
+
+    <!-- Header & Navigation -->
+    <header>
+        <h1>KOSOVA RIDES</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bikes.html">Bikes</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content Area -->
+    <main>
+        <h2>Contact Us</h2>
+        <p>Have a question about our bikes, need to book a test ride, or require maintenance? We would love to hear from you!</p>
+
+        <!-- Contact Details -->
+        <section>
+            <h3>Our Store Info</h3>
+            <p><strong>Address:</strong> Mother Teresa Boulevard, Pristina 10000, Kosovo</p>
+            <p><strong>Phone:</strong> +383 44 123 456</p>
+            <p><strong>Email:</strong> info@kosovarides.com</p>
+            <p><strong>Working Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>
+        </section>
+
+        <br>
+
+        <!-- Contact Form -->
+        <section>
+            <h3>Send Us a Message</h3>
+            <form action="#" method="POST">
+                <p>
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+                </p>
+                
+                <p>
+                    <label for="emailAddress">Email Address:</label><br>
+                    <input type="email" id="emailAddress" name="emailAddress" required placeholder="Enter your email">
+                </p>
+                
+                <p>
+                    <label for="inquiryType">What is this regarding?</label><br>
+                    <select id="inquiryType" name="inquiryType">
+                        <option value="test-ride">Book a Test Ride</option>
+                        <option value="sales">Sales Inquiry</option>
+                        <option value="service">Repair & Maintenance</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="45" required placeholder="How can we help you today?"></textarea>
+                </p>
+                
+                <p>
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Kosova Rides. All rights reserved. Pristina, Kosovo.</p>
+    </footer>
 
 
 
-
-
-  
 </body>
 </html>
