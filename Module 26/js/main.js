@@ -91,13 +91,3 @@ console.log(age>=18 &&age<=65);
 var var3=9;
 var var4=10;
 console.log(!(var3==var4));
-
-
-
-
-
-
-
-
-
-
